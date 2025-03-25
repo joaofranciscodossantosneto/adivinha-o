@@ -1,2 +1,5 @@
-for rodada in range(1,10,5):
-     print(rodada)
+import random 
+
+numero_aleatorio = round(random.random() *100)
+print(numero_aleatorio)
+
